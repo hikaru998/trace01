@@ -1,0 +1,11 @@
+@media (max-width:1000px) {
+    .header-right a {
+        display:none;
+    }
+    .header-left {
+        display:none
+    }
+    .top-message {
+        
+    }
+}
