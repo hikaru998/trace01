@@ -45,16 +45,16 @@
         display:inline;
     }
 
+    .news-container {
+        width: 90%;
+    }
+
     .news-content h2 {
         margin-top:0;
     }
 
     .share-container {
         width:80%;
-    }
-
-    .btn {
-        padding:13px 15px;
     }
 
     .menu-container {
@@ -77,23 +77,46 @@
     }
 
     .line {
-        display:inline-block;
-        padding:15px 33px;
+        display:block;
     }
 
     .btn {
         flex:none;
     }
+
+    .date {
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (max-width:479px) {
+    .intro-explain {
+        width:90%;
+    }
+
     .intro-explain h1 {
         font-size:36px;
+        margin-bottom: 31px;
     }
 
     .intro-explain-txt {
         font-size:15px;
         line-height:26px;
+    }
+
+    .intro-explain-paspol {
+        font-size:24px;
+        padding-left: 19px;
+    }
+
+    .start-kakko {
+        top:-5px;
+        left:-11px;
+    }
+
+    .end-kakko {
+        bottom:11px;
+        right:135px;
     }
 
     .article {
@@ -102,6 +125,10 @@
 
     .news-content {
         display:initial;
+    }
+
+    .news-content h2 {
+        margin-top: 10px;
     }
 
     .news-img {
@@ -122,19 +149,28 @@
 
     .footer-container {
         display:block;
-        
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .footer-logo-img {
         margin-left:initial;
-        width:35%;
+        width:44%;
         margin:auto;
+        margin-bottom: 30px;
     }
 
     .footer-copy-right {
         width:88%;
         margin:auto;
         text-align:center;
+        
+    }
+
+    .footer-copy-right p {
+        font-size:8px;
+        letter-spacing:1px;
+        line-height: 19px;
     }
 
     .product-heading {
@@ -155,9 +191,17 @@
         display:initial;
     }
 
+    .news-txt {
+        width: 100%;
+    }
+
     .news-heading-left h1 {
         text-align:center;
         padding-top:60px;
+    }
+
+    .product-container {
+        width: 90%;
     }
 
     .pro-contents-row {
@@ -178,9 +222,11 @@
 
     .pro-content p {
         display:block;
-        margin-left:0;
         font-size:15px;
-        width:100%;
+        width:85%;
+        line-height: 26px;
+        letter-spacing: 2px;
+        margin: auto;
     }
 
     .pro-content img {
@@ -194,6 +240,25 @@
 
     .res-more-link a {
         display:inline-block;
+    }
 
+    .share-container {
+        width: 90%;
+    }
+
+    .btn {
+        font-size:11px;
+        width: 138px;
+        margin: 37px 2px 9px 2px;
+    }
+
+    .hatena {
+        margin-top:0;
+        margin-bottom: 37px;
+    }
+
+    .line {
+        margin-top:0;
+        margin-bottom: 37px;
     }
 }
